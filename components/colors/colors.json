@@ -1,0 +1,79 @@
+{
+  "collectionName": "components_colors_colors",
+  "info": {
+    "name": "colors",
+    "icon": "fill-drip"
+  },
+  "options": {},
+  "attributes": {
+    "saddle": {
+      "type": "boolean"
+    },
+    "red": {
+      "type": "boolean"
+    },
+    "sandstone": {
+      "type": "boolean"
+    },
+    "gold": {
+      "type": "boolean"
+    },
+    "green": {
+      "type": "boolean"
+    },
+    "blue": {
+      "type": "boolean"
+    },
+    "purple": {
+      "type": "boolean"
+    },
+    "turquoise": {
+      "type": "boolean"
+    },
+    "raspberry": {
+      "type": "boolean"
+    },
+    "chocolate": {
+      "type": "boolean"
+    },
+    "mahogany": {
+      "type": "boolean"
+    },
+    "black": {
+      "type": "boolean"
+    },
+    "white": {
+      "type": "boolean"
+    },
+    "cream": {
+      "type": "boolean"
+    },
+    "black_smooth": {
+      "type": "boolean"
+    },
+    "black_bullhide": {
+      "type": "boolean"
+    },
+    "black_soft": {
+      "type": "boolean"
+    },
+    "oxblood": {
+      "type": "boolean"
+    },
+    "brandy_bullhide": {
+      "type": "boolean"
+    },
+    "tan": {
+      "type": "boolean"
+    },
+    "natural": {
+      "type": "boolean"
+    },
+    "rose_gold": {
+      "type": "boolean"
+    },
+    "burgundy_luster": {
+      "type": "boolean"
+    }
+  }
+}

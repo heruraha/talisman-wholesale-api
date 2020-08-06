@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Products"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price_nickel": {
+      "type": "decimal"
+    },
+    "price_brass": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "colors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "colors.colors"
+    },
+    "categories": {
+      "via": "products",
+      "collection": "category",
+      "dominant": true
+    },
+    "colors_alt": {
+      "type": "component",
+      "repeatable": true,
+      "component": "colors.colors"
+    },
+    "is_deerskin": {
+      "type": "boolean"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "sizes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sizes.sizes"
+    }
+  }
+}

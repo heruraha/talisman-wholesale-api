@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sizes_sizes",
+  "info": {
+    "name": "sizes",
+    "icon": "sort-numeric-down"
+  },
+  "options": {},
+  "attributes": {
+    "Small": {
+      "type": "boolean"
+    },
+    "small_medium": {
+      "type": "boolean"
+    },
+    "medium": {
+      "type": "boolean"
+    },
+    "large": {
+      "type": "boolean"
+    },
+    "large_xl": {
+      "type": "boolean"
+    },
+    "custom": {
+      "type": "boolean"
+    }
+  }
+}
